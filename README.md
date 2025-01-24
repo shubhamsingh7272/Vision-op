@@ -1,6 +1,6 @@
 # Teleoperator Application
 
-# Author: Varun Mantri
+# Author: Shubham Singh
 
 ## Unique Features 🚀
 
@@ -61,7 +61,7 @@ I'm actively looking for collaborators interested in:
 
 ## Contact & Support 📫
 
--   **Email**: varunrmantri23@gmail.com
+-   **Email**: shubham.s21@iiits.in
 
 ## Project Background 🌟
 
