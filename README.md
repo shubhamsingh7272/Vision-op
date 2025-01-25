@@ -19,7 +19,7 @@ A web application that displays a laptop camera feed alongside point cloud visua
 
 ## Architecture Diagram
 
-![Architecture Diagram](Architecture.png)
+![Architecture Diagram](Architecture.jpg)
 
 
 ---
