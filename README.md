@@ -51,7 +51,7 @@ Ensure the following are installed:
 2. **Backend Setup**:
    - Navigate to the backend folder:
      ```bash
-     cd backend
+     cd teleoperator-backend
      ```
    - Install dependencies:
      ```bash
@@ -65,7 +65,7 @@ Ensure the following are installed:
 3. **Frontend Setup**:
    - Navigate to the frontend folder:
      ```bash
-     cd frontend
+     cd teleoperator-frontend
      ```
    - Install dependencies:
      ```bash
