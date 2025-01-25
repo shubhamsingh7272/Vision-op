@@ -120,4 +120,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Demo Video
 
-[Demo Video](https://drive.google.com/file/d/1brB93bHzWKWhrwac6RVlADzNatIjTyzB/view?usp=sharing)
+[Demo Video]()
