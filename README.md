@@ -1,110 +1,122 @@
-# Teleoperator Application
+
+# Vision-op: Tele Operator Application
 
 # Author: Shubham Singh
 
-## Unique Features 🚀
+A web application that displays a laptop camera feed alongside point cloud visualization. The system handles real-time camera streaming, provides basic metrics, and includes recording capabilities.
 
--   **Multi-Shape Point Cloud**: Switch between sphere, circle, and cube visualizations in real-time
--   **Live System Metrics**: Real-time monitoring of system resources
--   **Dual Recording**: Simultaneous webcam and screen recording capabilities
--   **3D Screenshot**: Capture and save 3D point cloud states
--   **Picture-in-Picture Mode**: Keep webcam feed visible while working with 3D viewer
--   **Smart Controls**: Keyboard shortcuts and mouse controls for intuitive interaction
+## Features
 
-## Use Cases 🎯
+1. **Point Cloud Visualization**:
+   - Implements a 3D room viewer.
+   - Includes basic camera controls: zoom, rotate, and pan.
+2. **Camera Integration**:
+   - Streams the laptop's webcam feed to the web interface.
+   - Displays basic stream metrics.
+   - Offers a recording functionality.
 
-1. **Remote Operation**
+---
 
-    - Monitor and control remote systems
-    - Real-time visualization of sensor data
-    - Remote system health monitoring
+## Architecture Diagram
 
-2. **Educational**
+*Diagram pending creation.*
 
-    - Teaching 3D visualization concepts
-    - Demonstrating point cloud manipulation
-    - Understanding system resource management
+---
 
-3. **Development**
-    - Prototyping 3D interfaces
-    - Testing webcam applications
-    - System performance monitoring
+## Technology Stack
 
-## Future Enhancements 🔮
+- **Frontend**: React.js
+- **Backend**: Python (for file handling APIs)
+- **3D Visualization**: Point cloud viewer library (e.g., Three.js or similar)
 
-1. **AI Integration**
+---
 
-    - Object detection in point clouds
-    - Gesture-based controls
-    - Predictive system metrics
+## Prerequisites
 
-2. **Advanced Visualization**
+Ensure the following are installed:
 
-    - Custom shape generation
-    - Point cloud animations
-    - Color schemes and themes
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [Python](https://www.python.org/) (v3.8 or higher)
 
-3. **Collaboration Features**
-    - Real-time shared viewing
-    - Multi-user interaction
-    - Session recording and playback
+---
 
-## Get Involved! 🤝
+## Installation and Setup
 
-I'm actively looking for collaborators interested in:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/shubhamsingh7272/Vision-op.git
+   cd Vision-op
+   ```
 
--   Adding new point cloud shapes
--   Implementing AI features
--   Improving performance
--   Adding testing coverage
--   Documentation improvements
+2. **Backend Setup**:
+   - Navigate to the backend folder:
+     ```bash
+     cd backend
+     ```
+   - Install dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Run the backend server:
+     ```bash
+     python app.py
+     ```
 
+3. **Frontend Setup**:
+   - Navigate to the frontend folder:
+     ```bash
+     cd frontend
+     ```
+   - Install dependencies:
+     ```bash
+     npm install
+     ```
+   - Start the frontend server:
+     ```bash
+     npm start
+     ```
+
+---
+
+## How to Run the Application
+
+1. Start the backend server by following the backend setup instructions.
+2. Start the frontend server by following the frontend setup instructions.
+3. Open your browser and navigate to `http://localhost:3000` to access the application.
+
+---
+
+## Technical Decisions
+
+- **React.js**: Chosen for its efficient component-based architecture and seamless state management.
+- **Python**: Used for backend operations and file handling due to its simplicity and robust libraries.
+- **Point Cloud Library**: Enables interactive 3D visualization and manipulation of point clouds.
+
+---
+
+## Known Limitations
+
+- The application assumes a stable internet connection for streaming and recording.
+- Performance may degrade with high-resolution streams on older devices.
+
+---
 ## Contact & Support 📫
 
 -   **Email**: shubham.s21@iiits.in
+-   
 
-## Project Background 🌟
+## Contribution
 
-This project was developed as part of exploring the intersection of:
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
--   Real-time video processing
--   3D visualization
--   System monitoring
--   Web technologies
+---
 
-The goal was to create an interactive tool that combines these technologies in a unique way.
+## License
 
-## Fun Development Stories 🎮
+This project is licensed under the MIT License. See the LICENSE file for details.
 
--   Discovered interesting patterns while implementing point cloud shapes
--   Overcame challenges in real-time data streaming
--   Learned about WebGL and Three.js optimization
--   Experimented with different visualization techniques
+---
 
-## Tech Stack Evolution 📚
+## Demo Video
 
-Started with basic webcam streaming and evolved to include:
-
-1. Three.js for 3D visualization
-2. Flask backend for system metrics
-3. Real-time data processing
-4. File handling system
-
-## Contribution Guidelines 📝
-
-1. Fork the repository
-2. Create feature branch
-3. Follow code style
-4. Add tests
-5. Submit PR with description
-
-## License 📄
-
-MIT License - Feel free to use and modify!
-
-## Support the Project ❤️
-
--   Star the repository
--   Report issues
--   Share with others
--   Contribute code
+[Demo Video](https://drive.google.com/file/d/1brB93bHzWKWhrwac6RVlADzNatIjTyzB/view?usp=sharing)
